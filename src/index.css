@@ -58,15 +58,15 @@ body {
   width: 10px;
   height: 10px;
 }
-::-webkit-scrollbar-track {
-  background: #292a2d;
+:root::-webkit-scrollbar-track {
+  background: #fff;
 }
 ::-webkit-scrollbar-thumb {
-  background: #e3405f;
+  background: gray;
   border-radius: 5px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #e3405f;
+  background: darkgray;
 }
 /* Media Query */
 @media (max-width: 1380px) {

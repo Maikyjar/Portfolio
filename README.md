@@ -1,13 +1,8 @@
-# Portfolio
-
-![Portfolio](/images/portfolio1.gif)
-
 # How To Use
 
-- Clone this repository (or fork, then clone your fork :) )
+- Clone this repository (or fork, then clone your fork )
 - Run `npm i`
 - Check it out using `npm start`
-
 
 # Technologies used 🛠️
 
@@ -24,5 +19,5 @@
 
 # References
 
-Based on https://github.com/ashutosh1919/masterPortfolio/ and https://github.com/saadpasta/developerFolio
+Based on https://github.com/vvHacker007/Portfolio/
 Illustrations: https://undraw.co/

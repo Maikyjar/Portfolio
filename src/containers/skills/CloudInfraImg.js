@@ -33,14 +33,16 @@ export default function CloudInfraImg(props) {
           y2="461"
           // xlink:href="#e6219774-622b-406f-ae45-f26a74b1f5cd"
         />
-        <linearGradient
-          id="894cb520-7283-4f65-92a7-edb841614828"
-          x1="773.42"
-          y1="549"
-          x2="773.42"
-          y2="387"
-          // xlink:href="#e6219774-622b-406f-ae45-f26a74b1f5cd"
-        />
+        {
+          <linearGradient
+            id="894cb520-7283-4f65-92a7-edb841614828"
+            x1="773.42"
+            y1="549"
+            x2="773.42"
+            y2="387"
+            // xlink:href="#e6219774-622b-406f-ae45-f26a74b1f5cd"
+          />
+        }
         <linearGradient
           id="43bfcda2-dcfb-4411-a28b-16db327cb63c"
           x1="664.42"
@@ -180,7 +182,7 @@ export default function CloudInfraImg(props) {
           fill="url(#894cb520-7283-4f65-92a7-edb841614828)"
         />
       </g>
-      <rect
+      {/* <rect
         x="685.42"
         y="390"
         width="176"
@@ -203,7 +205,7 @@ export default function CloudInfraImg(props) {
         d="M1005.77,606.55c-2-2.59-13.31-1.25-18.44-.62-1.53.19-1.77-1.15-.38-2.16,9-6.32,23.8-4.5,25.53-2.39s-.48,17-8.91,24c-1.29,1.1-2.54.53-2-.91C1003.52,619.76,1007.78,609.08,1005.77,606.55Z"
         transform="translate(-167.6 -120.78)"
         fill="#f90"
-      />
+      /> */}
       <g opacity="0.7">
         <rect
           x="573.04"

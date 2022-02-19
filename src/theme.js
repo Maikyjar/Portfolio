@@ -6,15 +6,15 @@ const lightTheme = {
   text: "#343434",
   dark: "#000000",
   secondaryText: "#7F8DAA",
-  accentColor: "#E3405F",
-  accentBright: "#FC1056",
+  accentColor: "#0a66c2",
+  accentBright: "#0a66c2",
   projectCard: "#DCE4F2",
   skinColor: "#F7B799",
   skinColor2: "#FCB696",
-  imageDark: "#dce4f2",
+  imageDark: "#091464",
   imageClothes: "#dce4f2",
   avatarMisc: "#e9ecf2",
-  avatarShoes: "#ccd2e3",
+  avatarShoes: "#0a66c2",
 };
 
 const darkTheme = {
