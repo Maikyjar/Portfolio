@@ -277,7 +277,7 @@ const projects = {
     {
       id: "0",
       name: "Countries App",
-      url: "https://countries-react-app.web.app/",
+      url: "https://countries-react-8af4b.web.app/",
       description:
         "This is one of my first projects in the React library, this application is executed consuming two APIs https://restcountries.com/ and http://api.weatherstack.com/ which requires payment to make HTTPS requests, so which should allow non-secure Content in the browser to be able to see the weather of the capital of each country, its development was carried out through the use of Hooks with functional components, I use React Bootstrap for the styles and for the responsive functionality, in addition React Router V6 for routes, Thank you very much for visiting.",
       languages: [
@@ -293,17 +293,35 @@ const projects = {
           name: "JavaScript",
           iconifyClass: "logos-javascript",
         },
+        {
+          name: "React router",
+          iconifyClass: "logos:react-router",
+        },
+        {
+          name: "API",
+          iconifyClass: "eos-icons:api",
+          color: "#eb1010",
+        },
       ],
     },
     {
       id: "1",
-      name: "In process",
-      url: "#",
-      description: "In process.",
+      name: "Anecdotes App",
+      url: "https://anecdotes-react.web.app/",
+      description:
+        "This is my first React project which simply has a series of anecdotes that change randomly, which receive votes and the most voted is shown on the screen",
       languages: [
         {
-          name: "In process",
-          iconifyClass: "bi:router",
+          name: "ReactJS",
+          iconifyClass: "logos-react",
+        },
+        {
+          name: "Bootstrap",
+          iconifyClass: "logos:bootstrap",
+        },
+        {
+          name: "JavaScript",
+          iconifyClass: "logos-javascript",
         },
       ],
     },
