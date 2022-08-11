@@ -1,8 +1,6 @@
 # Hi, my name is Michael Alvarez
 
-
-
-
+![image](https://user-images.githubusercontent.com/90518667/184257337-b16d054d-242b-4e31-b1fc-b7f2a16aa347.png)
 
 # How To Use
 
