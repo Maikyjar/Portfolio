@@ -1,6 +1,6 @@
 # Hi, my name is Michael Alvarez
 
-![image](https://user-images.githubusercontent.com/90518667/184257337-b16d054d-242b-4e31-b1fc-b7f2a16aa347.png)
+![image](https://github.com/Maikyjar/Portfolio/assets/90518667/54b4042d-661b-4f94-ae04-87673835b4f1)
 
 # How To Use
 
