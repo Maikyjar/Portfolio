@@ -11,7 +11,7 @@ const settings = {
 const greeting = {
   title: "Hello friends 🖥️.",
   title2: "Michael",
-  logo_name: "{ Michael A.}",
+  logo_name: "{ Michael A. }",
   full_name: "Michael Alvarez",
   subTitle:
     "Full Stack Developer, Front-end developer , Javascript Engineer, React Developer.",
@@ -36,7 +36,7 @@ const skills = {
       skills: [
         "⚡ Building responsive website front end using HTML5, CSS3 and Javascript",
         "⚡ Building responsive website front end using ReactJS",
-        "⚡ Creating application backend with Node",
+        "⚡ Creating application backend with NodeJS and Express",
         "⚡ Integration of third party services such as Firebase",
         "⚡ Building responsive website front end using ReactJS with Redux",
       ],
@@ -101,32 +101,33 @@ const skills = {
       ],
     },
     {
-      title: "Cloud Architecture",
+      title: "E-commerce Development",
       fileName: "CloudInfraImg",
       skills: [
-        "⚡ Experience hosting and managing websites",
+        "⚡ Experience in design and implementation of ecommerce",
         "⚡ Experience with Continuous Integration",
+        "⚡ Experience with Vtex develoment and platform",
       ],
       softwareSkills: [
         {
-          skillName: "Netlify",
-          fontAwesomeClassname: "simple-icons:netlify",
+          skillName: "Vtex",
+          fontAwesomeClassname: "simple-icons:vtex",
           style: {
-            color: "#38AFBB",
+            color: "#fa2080",
           },
         },
         {
-          skillName: "Heroku",
-          fontAwesomeClassname: "simple-icons:heroku",
+          skillName: "Shop Server",
+          fontAwesomeClassname: "fluent-mdl2:shop-server",
           style: {
-            color: "#6863A6",
+            color: "#f7df1e",
           },
         },
         {
-          skillName: "Firebase",
-          fontAwesomeClassname: "simple-icons:firebase",
+          skillName: "GitHub",
+          fontAwesomeClassname: "fa6-brands:square-github",
           style: {
-            color: "#FFCA28",
+            color: "#343c97",
           },
         },
       ],
@@ -137,18 +138,34 @@ const skills = {
 const degrees = {
   degrees: [
     {
-      title: "Corporacion Universitaria Minuto de Dios",
-      subtitle: "Degree in Public Accounting",
+      title: "Henry",
+      subtitle: "Full Stack Web Developer",
       logo_path: "Henry.png",
-      alt_name: "SSEC",
-      duration: "2016 - 2020",
+      alt_name: "Henry",
+      duration: "2021 - 2022",
       descriptions: [
-        "⚡  I am currently culminating in HENRY one of the best Bootcamp in Latam",
-        // "⚡ I have studied core subjects like Data Structures, DBMS, Networking, Security, etc.",
-        // "⚡ I have also completed various online courses for Backend , Web , Mobile App Development, etc.",
-        // "⚡ I have implemented several projects based on what I've leart under my Computer Engineering course. ",
+        "⚡ Backend development with Express structure and methods targeting postgreSQL databases",
+        "⚡ Develop complete applications with React and Redux, applying scalable development principles",
+        "⚡ Javascript syntax and methods in object-oriented programming, basic and advanced algorithms such as binary search tree",
+        "⚡ General structure of the code and its components",
       ],
       website_link: "https://www.soyhenry.com/",
+      color_code: "#FFFF01",
+    },
+    {
+      title: "Corporacion Universitaria Minuto de Dios",
+      subtitle: "Degree in Public Accounting",
+      logo_path: "uniminuto.jpg",
+      alt_name: "Uniminuto",
+      duration: "2016 - 2020",
+      descriptions: [
+        "⚡  Develop math, statistics and number skills",
+        "⚡ Understanding and development of financial statements in addition to registration, control and analysis",
+        "⚡ General Accounting",
+        // "⚡ pendding",
+      ],
+      website_link: "https://www.uniminuto.edu/",
+      color_code: "#162644",
     },
   ],
 };
@@ -170,8 +187,17 @@ const certifications = {
       logo_path: "GH.png",
       certificate_link:
         "https://drive.google.com/drive/folders/1Y_HPgwqTxsDgbnSD7mQpVVG53vu5MSxs?usp=sharing",
-      alt_name: "Reply",
+      alt_name: "Grasshopper",
       color_code: "#07354E",
+    },
+    {
+      title: "Universidad Sergio Arboleda",
+      subtitle: "Fundamentos Programacion con Python",
+      logo_path: "sergio-arboleda.png",
+      certificate_link:
+        "https://drive.google.com/drive/folders/1Y_HPgwqTxsDgbnSD7mQpVVG53vu5MSxs?usp=sharing",
+      alt_name: "USA",
+      color_code: "#6610f2",
     },
   ],
 };
@@ -187,6 +213,26 @@ const experience = {
     {
       title: "Work Experience",
       experiences: [
+        {
+          title: "Junior Front End Developer",
+          company: "ITGlobers",
+          company_url: "https://itglobers.com/",
+          logo_path: "itg.jfif",
+          duration: "September 2022 - Actually",
+          location: "Remote",
+          description: `Development and implementation of native and customized components according to design requirements and customer requests, through the management of different technologies according to the specific case.`,
+          color: "#480095",
+        },
+        {
+          title: "Accounting Analyst",
+          company: "OmniLatam",
+          company_url: "https://klym.com/co/",
+          logo_path: "klym.jpg",
+          duration: "March 2022 - October 2022",
+          location: "Remote",
+          description: `Omnilatam is a fintech with a presence in three Latin American countries, carrying out factoring, confirming and much more processes. Among my responsibilities is the analysis and management of large amounts of information to reach their respective reconciliation, optimization of processes through the development in Microsoft Excel, Analysis processes and reconciliation of operations through the ERP FlexLine, the injection of information by interface with .csv files and information matrix in Excel.`,
+          color: "#FA8072",
+        },
         {
           title: "Assistant A Outsourcing Contable",
           company: "Grant Thornton Colombia",
@@ -208,25 +254,6 @@ const experience = {
           description: `ZTE is a multinational dedicated to the provision of telecommunications services, through solutions that include the equipment, the engineering structure and the installation for operation in the real field, as an accounting analyst my main responsibilities for the two companies established in Colombia are the analysis and conciliation of the payroll, its balance and result accounts, review and monthly closing, homologation of the registry for the Oracle program, analysis and conciliation of the financial inventory, registry and control of inventory in the Helisa program, homologation of the records in Oracle, revision and counting of physical inventory, analysis of inventory costs, liquidation of imports, state reports, delivery of result reports and basic English management for communication with the foreign administration.
           `,
           color: "#2940CC",
-        },
-        {
-          title: "Accounting Analyst",
-          company: "Stanton SAS",
-          company_url: "https://www.brahma.co/",
-          logo_path: "Stanton.jfif",
-          duration: "Sep 2018 - July 2020",
-          location: "Bogota D.C., Colombia",
-          description: `Within my responsibilities and skills to perform is:
-          - registration and settlement of national and district taxes
-          - district magnetic media and national exogenous information
-          - management of Siesa Enterprise accounting and financial ERP
-          - general accounting records of more than 10 operating companies that are part of the corporate group
-          - Account reconciliation and account analysis
-          - reconciliation between companies, accounts payable and receivable
-          - bank reconciliations of bank accounts of the companies of the corporate group
-          - registration of payroll, social security, parafiscal contributions and social benefits, in one of the companies which has a payroll of around 300 employees
-          - control and management of the accounting file in general.`,
-          color: "#CD2424",
         },
       ],
     },
@@ -277,7 +304,7 @@ const projects = {
     {
       id: "0",
       name: "Countries App",
-      url: "https://countries-react-app.web.app/",
+      url: "https://countries-react-8af4b.web.app/",
       description:
         "This is one of my first projects in the React library, this application is executed consuming two APIs https://restcountries.com/ and http://api.weatherstack.com/ which requires payment to make HTTPS requests, so which should allow non-secure Content in the browser to be able to see the weather of the capital of each country, its development was carried out through the use of Hooks with functional components, I use React Bootstrap for the styles and for the responsive functionality, in addition React Router V6 for routes, Thank you very much for visiting.",
       languages: [
@@ -293,17 +320,35 @@ const projects = {
           name: "JavaScript",
           iconifyClass: "logos-javascript",
         },
+        {
+          name: "React router",
+          iconifyClass: "logos:react-router",
+        },
+        {
+          name: "API",
+          iconifyClass: "eos-icons:api",
+          color: "#eb1010",
+        },
       ],
     },
     {
       id: "1",
-      name: "In process",
-      url: "#",
-      description: "In process.",
+      name: "Anecdotes App",
+      url: "https://anecdotes-react.web.app/",
+      description:
+        "This is my first React project which simply has a series of anecdotes that change randomly, which receive votes and the most voted is shown on the screen",
       languages: [
         {
-          name: "In process",
-          iconifyClass: "bi:router",
+          name: "ReactJS",
+          iconifyClass: "logos-react",
+        },
+        {
+          name: "Bootstrap",
+          iconifyClass: "logos:bootstrap",
+        },
+        {
+          name: "JavaScript",
+          iconifyClass: "logos-javascript",
         },
       ],
     },

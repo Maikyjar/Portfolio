@@ -21,12 +21,12 @@ function Header(props) {
     border: "none",
     alignItems: "center",
     justifyContent: "center",
-    backgroundColor: props.theme.name === "light" ? "#7CD1F7" : "#292C3F",
+    backgroundColor: props.theme.name === "light" ? "#292C3F" : "#7CD1F7",
     outline: "none",
     transition: "all 0.2s ease-in-out",
     ":hover": {
       boxShadow: `0 3px 8px ${
-        props.theme.name === "light" ? "#F7D774" : "#646464"
+        props.theme.name === "light" ? "#646464" : "#F7D774"
       }`,
     },
   });
@@ -49,16 +49,16 @@ function Header(props) {
 
   const icon =
     props.theme.name === "dark" ? (
-      <HiMoon
-        strokeWidth={1}
-        size={20}
-        color={props.theme.name === "light" ? "#F9D784" : "#A7A7A7"}
-      />
-    ) : (
       <CgSun
         strokeWidth={1}
         size={20}
-        color={props.theme.name === "light" ? "#F9D784" : "#A7A7A7"}
+        color={props.theme.name === "light" ? "#A7A7A7" : "#F9D784"}
+      />
+    ) : (
+      <HiMoon
+        strokeWidth={1}
+        size={20}
+        color={props.theme.name === "light" ? "#A7A7A7" : "#F9D784"}
       />
     );
 
