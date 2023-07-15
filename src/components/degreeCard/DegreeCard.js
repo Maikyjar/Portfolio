@@ -12,13 +12,13 @@ function DegreeCard(props) {
     height: "auto",
     borderRadius: " 50%",
     padding: "10px",
-    border: `1px solid ${theme.accentColor}`,
+    border: `1px solid ${degree.color_code}`,
     marginRight: "50px",
-    boxShadow: `0px 0px 5px ${theme.accentColor}`,
+    boxShadow: `0px 0px 5px ${degree.color_code}`,
     transition: "all 0.2s ease-in-out",
     ":hover": {
       color: "rgba(255, 255, 255, 1)",
-      boxShadow: `0 5px 15px ${theme.accentColor}`,
+      boxShadow: `0 5px 15px ${degree.color_code}`,
     },
     "@media (max-width: 768px)": {
       marginLeft: "50px",
@@ -28,17 +28,17 @@ function DegreeCard(props) {
   });
 
   const card_body = style({
-    borderBottom: `1px solid ${theme.accentColor}`,
-    borderLeft: `1px solid ${theme.accentColor}`,
-    borderRight: `1px solid ${theme.accentColor}`,
+    borderBottom: `1px solid ${degree.color_code}`,
+    borderLeft: `1px solid ${degree.color_code}`,
+    borderRight: `1px solid ${degree.color_code}`,
     borderRadius: "7px",
     width: "90%",
     margin: "10px",
-    boxShadow: `0px 1px 5px ${theme.accentColor}`,
+    boxShadow: `0px 1px 5px ${degree.color_code}`,
     transition: "all 0.2s ease-in-out",
     ":hover": {
       color: "rgba(255, 255, 255, 1)",
-      boxShadow: `0 5px 15px ${theme.accentColor}`,
+      boxShadow: `0 5px 15px ${degree.color_code}`,
     },
     "@media (max-width: 768px)": {
       width: "100%",
@@ -48,7 +48,7 @@ function DegreeCard(props) {
   const button_visit = style({
     textDecoration: "none",
     color: "rgba(255, 255, 255, 1)",
-    background: `${theme.accentColor}`,
+    background: `${degree.color_code}`,
     padding: "15px 15px",
     marginTop: "25px",
     borderRadius: "4px",
@@ -63,7 +63,7 @@ function DegreeCard(props) {
     cursor: "pointer",
     ":hover": {
       color: "rgba(255, 255, 255, 1)",
-      boxShadow: `0 5px 10px ${theme.accentColor}`,
+      boxShadow: `0 5px 10px ${degree.color_code}`,
     },
   });
 
@@ -86,7 +86,7 @@ function DegreeCard(props) {
         <div {...card_body}>
           <div
             className="body-header"
-            style={{ backgroundColor: theme.accentColor }}
+            style={{ backgroundColor: degree.color_code }}
           >
             <div className="body-header-title">
               <h2 className="card-title" style={{ color: "#FFFFFF" }}>
@@ -126,7 +126,7 @@ function DegreeCard(props) {
                   marginRight: "23px",
                   textDecoration: "none",
                   float: "right",
-                  backgroundColor: theme.accentColor,
+                  backgroundColor: degree.color_code,
                 }}
               >
                 Visit Website
